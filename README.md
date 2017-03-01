@@ -3,6 +3,8 @@ TensorFlow Tutorial with popular machine learning algorithms implementation. Thi
 
 It is suitable for beginners who want to find clear and concise examples about TensorFlow. For readability, the tutorial includes both notebook and code with explanations.
 
+Note: If you are using older TensorFlow version (before 0.12), please have a [look here](https://github.com/aymericdamien/TensorFlow-Examples/tree/0.11)
+
 ## Tutorial index
 
 #### 0 - Prerequisite
@@ -44,7 +46,7 @@ Official Website: [http://yann.lecun.com/exdb/mnist/](http://yann.lecun.com/exdb
 The following examples are coming from [TFLearn](https://github.com/tflearn/tflearn), a library that provides a simplified interface for TensorFlow. You can have a look, there are many [examples](https://github.com/tflearn/tflearn/tree/master/examples) and [pre-built operations and layers](http://tflearn.org/doc_index/#api).
 
 ### Tutorials
-- [TFLearn Quickstart](intro/quickstart.md). Learn the basics of TFLearn through a concrete machine learning task. Build and train a deep neural network classifier.
+- [TFLearn Quickstart](https://github.com/tflearn/tflearn/blob/master/tutorials/intro/quickstart.md). Learn the basics of TFLearn through a concrete machine learning task. Build and train a deep neural network classifier.
 
 ### Basics
 - [Linear Regression](https://github.com/tflearn/tflearn/blob/master/examples/basics/linear_regression.py). Implement a linear regression using TFLearn.
@@ -61,6 +63,7 @@ The following examples are coming from [TFLearn](https://github.com/tflearn/tfle
 - [Network in Network](https://github.com/tflearn/tflearn/blob/master/examples/images/network_in_network.py). 'Network in Network' implementation for classifying CIFAR-10 dataset.
 - [Alexnet](https://github.com/tflearn/tflearn/blob/master/examples/images/alexnet.py). Apply Alexnet to Oxford Flowers 17 classification task.
 - [VGGNet](https://github.com/tflearn/tflearn/blob/master/examples/images/vgg_network.py). Apply VGG Network to Oxford Flowers 17 classification task.
+- [VGGNet Finetuning (Fast Training)](https://github.com/tflearn/tflearn/blob/master/examples/images/vgg_network_finetuning.py). Use a pre-trained VGG Network and retrain it on your own data, for fast training.
 - [RNN Pixels](https://github.com/tflearn/tflearn/blob/master/examples/images/rnn_pixels.py). Use RNN (over sequence of pixels) to classify images.
 - [Highway Network](https://github.com/tflearn/tflearn/blob/master/examples/images/highway_dnn.py). Highway Network implementation for classifying MNIST dataset.
 - [Highway Convolutional Network](https://github.com/tflearn/tflearn/blob/master/examples/images/convnet_highway_mnist.py). Highway Convolutional Network implementation for classifying MNIST dataset.
@@ -97,7 +100,7 @@ The following examples are coming from [TFLearn](https://github.com/tflearn/tfle
 
 ## Dependencies
 ```
-tensorflow
+tensorflow 1.0alpha
 numpy
 matplotlib
 cuda
